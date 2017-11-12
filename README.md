@@ -7,3 +7,8 @@ Built with:
 - React
 - Redux
 - PostgreSQL
+
+Run Locally:
+`cd react-ui`
+`npm install`
+`npm start`

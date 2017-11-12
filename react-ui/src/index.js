@@ -3,10 +3,10 @@ import { render } from "react-dom";
 import { Provider } from "react-redux";
 
 // Model imports
-import configureStore from "./Model/store/configureStore";
+import configureStore from "Model/store/configureStore";
 
 // View imports
-import App from "./View/App/App";
+import App from "View/App/App";
 
 const store = configureStore();
 
