@@ -13,9 +13,11 @@ class Feed extends Component {
   render() {
     return (
       <div>
-        {this.props.feedItems.map((e, i) =>
-          <FeedItem text={e.text} score={[e.scoreX, e.scoreY]} key={i} />
-        )}
+        {this.props.feedItems.length
+          ? this.props.feedItems.map((e, i) =>
+              <FeedItem text={e.text} score={[e.scoreX, e.scoreY]} key={i} />
+            )
+          : <span>..loading feed</span>}
       </div>
     );
   }

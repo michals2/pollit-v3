@@ -1,3 +1,3 @@
 export default {
-  feedItems: ["Feed is loading..."]
+  feedItems: []
 };

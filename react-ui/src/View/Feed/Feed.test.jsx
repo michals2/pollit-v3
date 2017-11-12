@@ -4,5 +4,5 @@ import Feed from "./Feed";
 
 it("renders without crashing", () => {
   const div = document.createElement("div");
-  ReactDOM.render(<div />, div);
+  ReactDOM.render(<Feed />, div);
 });

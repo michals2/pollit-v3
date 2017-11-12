@@ -1,7 +1,8 @@
+// Library imports
 import React from "react";
-
 import { Layout, Icon, Menu } from "antd";
 
+// Library destructuring
 const { Sider } = Layout;
 
 const SideBar = () =>
@@ -21,4 +22,5 @@ const SideBar = () =>
       </Menu.Item>
     </Menu>
   </Sider>;
+
 export default SideBar;
