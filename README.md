@@ -7,6 +7,8 @@ Built with:
 - React
 - Redux
 - PostgreSQL
+- Jest
+- React-Router
 
 Run Locally:
 `cd react-ui`
