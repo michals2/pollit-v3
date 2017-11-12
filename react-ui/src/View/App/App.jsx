@@ -1,8 +1,9 @@
-import "./App.css";
+import "antd/dist/antd.css";
 import React from "react";
 import VisibleFeed from "Controller/VisibleFeed";
 
 import { Layout, Menu, Icon } from "antd";
+
 const { Header, Content, Footer, Sider } = Layout;
 
 const App = () =>
@@ -53,9 +54,7 @@ const App = () =>
           <VisibleFeed />
         </div>
       </Content>
-      <Footer style={{ textAlign: "center" }}>
-        Created by Luke Michals
-      </Footer>
+      <Footer style={{ textAlign: "center" }}>Created by Luke Michals</Footer>
     </Layout>
   </Layout>;
 
